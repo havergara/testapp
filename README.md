@@ -1,10 +1,10 @@
 ## Installation
 To use this, please follow the following steps:
 
-Clone the repository to your servers htdocs directory
+Clone the repository or if you don't have github account, download and extract the repo to your servers htdocs directory
 
     git clone https://github.com/havergara/testapp.git
-
+     
 Create database for this app
 
 Open the .env file located at the root directory of the cloned folder with your text editor and make the following necessary configuration for the database connection
