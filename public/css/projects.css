@@ -1,0 +1,28 @@
+nav ul{
+    list-style: none;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+}
+
+#frmProject {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#projectTable {
+    width: 700px;
+    border: solid 1px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#projectTable th {
+    background-color: #a0aec0;
+}
+
+#projectTable th, td {
+    border: solid 1px;
+    padding: 3px;
+}

@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Oxygen Regular';
+    src: url("../fonts/Oxygen-Regular.ttf");
+}
+
+body {
+    font-family: 'Oxygen Regular', Arial, sans-serif;
+}
+
+.fullPageContainer{
+    height: 100vh;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100%;
+}
+
+.frmElContainer label{
+    display: block;
+}
+
+.frmElContainer input, select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+}
+
+.frmElContainer:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.frmControl {
+    text-align: right;
+}
+
+.frmControl input[type=submit] {
+    padding: 5px 10px;
+}
+
+.errors {
+    list-style: none;
+    margin-bottom: 20px;
+    background-color: #8b000070;
+    padding: 20px;
+}
+
+.errorContainer {
+    display: none;
+}
+
+.displayError {
+    display: block;
+}
+
+.notification {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: royalblue;
+}
