@@ -3,7 +3,7 @@ To use this, please follow the following steps:
 
 Clone the repository to your servers htdocs directory
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone https://github.com/havergara/testapp.git
 
 Open the .env file located at the root directory of the cloned folder with your text editor and make the following necessary configuration
 
