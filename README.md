@@ -4,6 +4,8 @@ To use this, please follow the following steps:
 Clone the repository or if you don't have github account, download and extract the repo to your servers htdocs directory
 
     git clone https://github.com/havergara/testapp.git
+or
+    https://github.com/havergara/testapp/archive/main.zip
      
 Create database for this app
 
