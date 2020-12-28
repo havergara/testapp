@@ -5,15 +5,15 @@ Clone the repository or if you don't have github account, download and extract t
 
     git clone https://github.com/havergara/testapp.git or https://github.com/havergara/testapp/archive/main.zip    
      
-Create database for this app
+Create a database for this app, preconfigured database name is myapp but you can name your database anything you prefer.
 
-Open the .env file located at the root directory of the cloned folder with your text editor and make the following necessary configuration for the database connection
+Open the .env file located at the root directory of the cloned repo with your text editor and make the following necessary configuration for the database connection
 
     DB_DATABASE=name_of_the_database_you_created
     DB_USERNAME=your_database_username
     DB_PASSWORD=your_database_password
 
-Switch to the app directory
+Navigate to the app directory
 
     cd this_app_location
 
