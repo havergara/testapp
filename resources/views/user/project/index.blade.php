@@ -26,13 +26,13 @@
                             <td>{{ $project->SD }}</td>
                             <td>
                                 @if(!is_null($project->link1))
-                                    <a href="{{ $project->link1 }}">&rarr;</a>
+                                    <a href="{{ $project->link1 }}" target="_blank">&rarr;</a>
                                 @endif
                                 @if(!is_null($project->link2))
-                                    <a href="{{ $project->link2 }}">&rarr;</a>
+                                    <a href="{{ $project->link2 }}" target="_blank">&rarr;</a>
                                 @endif
                                 @if(!is_null($project->link3))
-                                    <a href="{{ $project->link3 }}">&rarr;</a>
+                                    <a href="{{ $project->link3 }}" target="_blank">&rarr;</a>
                                 @endif
                             </td>
                         </tr>
