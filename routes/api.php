@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('projects', [\App\Http\Controllers\API\ProjectController::class, 'index']);
+Route::get('projects', [\App\Http\Controllers\API\ProjectController::class, 'index'])->middleware('guest:api');

@@ -5,9 +5,11 @@ Clone the repository to your servers htdocs directory
 
     git clone https://github.com/havergara/testapp.git
 
-Open the .env file located at the root directory of the cloned folder with your text editor and make the following necessary configuration
+Create database for this app
 
-    DB_DATABASE=your_database_name
+Open the .env file located at the root directory of the cloned folder with your text editor and make the following necessary configuration for the database connection
+
+    DB_DATABASE=name_of_the_database_you_created
     DB_USERNAME=your_database_username
     DB_PASSWORD=your_database_password
 
